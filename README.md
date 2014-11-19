@@ -9,6 +9,10 @@ a table for values of type `'a`, one needs to create an `'a injection`
 using the `access` function. Then, values put in the table using a given
 `'a injection` can be retrieved only with the same `'a injection`.
 
+**NOTE**: this implementation will no longer be maintained.
+See [containers](https://github.com/c-cube/ocaml-containers), in the
+module `Containers_misc.Mixtbl`.
+
 ## Tests
 
 Unit tests can be found in `tests.ml`. They demonstrate a basic usage of the
